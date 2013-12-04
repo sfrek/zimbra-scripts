@@ -36,6 +36,9 @@ __EOF__
 #
 # __main__
 #
+# TODO:
+#	temporal word directory.
+#	checks
 
 if [ $# -lt 1 ];then
 	echo -e "\033[01;31mError\033[00m falta el usuario"
@@ -52,7 +55,12 @@ fi
 
 USER=${ACCOUNT%%@*}
 DOMAIN=${ACCOUNT##*@}
-TEMP_ACCOUNT=${USER}TEMP@${DOMAIN}
+
+if [ -z ${DOMAIN} -o ${USER} = ${DOMAIN} ];then
+	echo -e "${ROJO}Error${NOCO}: Falta el dominio"
+	exit 3
+fi
+
 WORK_DIR=/tmp/remake_account/${ACCOUNT}
 rm -rf ${WORK_DIR} 2>&- >&-
 mkdir -p ${WORK_DIR}
@@ -74,6 +82,6 @@ echo -e "${AMARILLO}filtros de ${ACCOUNT} ${NOCO}"
 get_filters ${ACCOUNT} | tee ${WORK_DIR}/filtros.list
 echo
 
-TGZ=${WORK_DIR}/${TEMP_ACCOUNT%%@*}.tgz
-echo -e "${N007}exporto buzon de ${TEMP_ACCOUNT} en ${TGZ} ${NOCO}"
-comprime_buzon ${TEMP_ACCOUNT} ${TGZ}
+TGZ=${WORK_DIR}/${ACCOUNT%%@*}.tgz
+echo -e "${N007}exporto buzon de ${ACCOUNT} en ${TGZ}${NOCO}"
+comprime_buzon ${ACCOUNT} ${TGZ}

@@ -1,0 +1,10 @@
+acontreras@hispafuentes.com.es
+acruz@abadasoft.com
+alupiola@abadasoft.com
+fdelgado@hispafuentes.com.es
+ivanjo@pdg.uva.es
+jmanzano@abadasoft.com
+jsolivar@psi.uva.es
+mdelaig@psi.uva.es
+rabuin@abadasoft.com
+szegianini@abadasoft.com

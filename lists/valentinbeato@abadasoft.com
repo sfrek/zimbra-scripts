@@ -1,0 +1,10 @@
+acasanova@abadasoft.com
+cpiedrahita@abadasoft.com
+evillalba@abadasoft.com
+ffernandez@abadasoft.com
+fgomez@abadasoft.com
+jaredondo@abadasoft.com
+jsanchez@abadasoft.com
+mgonzalez@abadasoft.com
+selvira@abadasoft.com
+tsanchez@abadasoft.com

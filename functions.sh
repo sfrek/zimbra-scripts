@@ -2,6 +2,22 @@
 # Biblioteca de funciones
 #
 
+GRIS="\033[01;30m"
+ROJO="\033[01;31m"
+VERDE="\033[01;32m"
+AMARILLO="\033[01;33m"
+AZUL="\033[01;34m"
+MORADO="\033[01;35m"
+BLANCO="\033[01;36m"
+CIAN="\033[01;37m"
+NO04="\033[35;30m"
+NO05="\033[36;31m"
+NO07="\033[37;32m"
+NO08="\033[38;33m"
+NOCO="\033[00m"
+
+
+
 function exist_domain(){
 	local DOMAIN=${1}
 	zmprov getDomain ${DOMAIN} 2>&- >&-

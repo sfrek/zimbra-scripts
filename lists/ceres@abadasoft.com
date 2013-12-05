@@ -1,0 +1,11 @@
+acruz@abadasoft.com
+agarcia@abadasoft.com
+alara@ccmijesususon.com
+bmota@abadasoft.com
+dsierra@abadasoft.com
+gavila@sescam.jccm.es
+jbpagador@ccmijesususon.com
+jmanzano@abadasoft.com
+jscott@sescam.org
+mpascual@abadasoft.com
+szegianini@abadasoft.com

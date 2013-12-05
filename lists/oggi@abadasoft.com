@@ -1,0 +1,14 @@
+elopez@abadasoft.com
+fborrego@uco.es
+gcerruela@uco.es
+i22mamig@uco.es
+iluque@uco.es
+jpelaez@abadasoft.com
+luis.cordero@sistemasinfo.com
+mangel@uco.es
+miguel.torres@sistemasinfo.com
+miguelangel.hernandez@sistemasinfo.com
+pcgarrido@uco.es
+roberto.munoz@sistemasinfo.com
+szegianini@abadasoft.com
+vmgutierrez@abadasoft.com

@@ -30,6 +30,12 @@ function exist_account(){
 	return $?
 }
 
+function exist_list(){
+	local LIST=${1}
+	zmprov getDistributionList ${LIST} 2>&- >&-
+	return $?
+}
+
 function get_password(){
 	local ACCOUNT=${1}
 	PASSWORD=$(zmprov --ldap getAccount ${ACCOUNT} | grep userPassword | cut -f2 -d' ')

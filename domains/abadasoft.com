@@ -1,11 +1,4 @@
 admin@abadasoft.com
-spam.dshjr0nnb@abadasoft.com
-ham.cklj6xz4fp@abadasoft.com
-virus-quarantine.azgcmqx5@abadasoft.com
-galsync.99rm3oap@abadasoft.com
-wiki@abadasoft.com
-ham.ebgawhktfs@abadasoft.com
-spam.8irqaje3ej@abadasoft.com
 pjimenez@abadasoft.com
 figarcia@abadasoft.com
 mgonzalez@abadasoft.com

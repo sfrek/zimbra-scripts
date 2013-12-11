@@ -38,7 +38,8 @@ function exist_list(){
 
 function get_password(){
 	local ACCOUNT=${1}
-	PASSWORD=$(zmprov --ldap getAccount ${ACCOUNT} | grep userPassword | cut -f2 -d' ')
+	zmprov --ldap getAccount ${ACCOUNT} | awk '/userPassword/ {print $2}' 2>&-
+	return $?
 }
 
 function set_password(){

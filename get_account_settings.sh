@@ -32,10 +32,11 @@ WORK_DIR="./accounts/${DOMAIN}/${USER}"
 
 [[ ! -d ${WORK_DIR} ]] && mkdir -p ${WORK_DIR}
 
-zmprov getAccount ${ACCOUNT} | tee ${WORK_DIR}/${USER}.ldif
+zmprov getAccount ${ACCOUNT} > ${WORK_DIR}/${USER}.ldif
 
+echo -e "${ROJO}Password de ${ACCOUNT} ${NOCO}"
 get_password ${ACCOUNT} | tee ${WORK_DIR}/password
-echo -e "${ROJO}Password ${PASSWORD} ${NOCO}"
+echo
 
 echo -e "${VERDE}Listas en las que esta ${ACCOUNT} ${NOCO}"
 get_userlist ${ACCOUNT} | tee ${WORK_DIR}/listas.list

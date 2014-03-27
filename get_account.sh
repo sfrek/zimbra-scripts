@@ -61,7 +61,8 @@ if [ -z ${DOMAIN} -o ${USER} = ${DOMAIN} ];then
 	exit 3
 fi
 
-WORK_DIR=/tmp/remake_account/${ACCOUNT}
+# WORK_DIR=/tmp/remake_account/${ACCOUNT}
+WORK_DIR=/opt/backup/accounts/${ACCOUNT}
 rm -rf ${WORK_DIR} 2>&- >&-
 mkdir -p ${WORK_DIR}
 
